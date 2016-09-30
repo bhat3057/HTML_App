@@ -1,0 +1,15 @@
+<web-app>
+	<servlet>
+        <servlet-name>sanjit</servlet-name>
+        <servlet-class>FormSrv</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sanjit</servlet-name>
+        <url-pattern>/furl</url-pattern>
+    </servlet-mapping>
+	<welcome-file-list>
+	<welcome-file>Elements.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
